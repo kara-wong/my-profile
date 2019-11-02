@@ -1,0 +1,114 @@
+/*Colours and Fonts*/
+body {
+	background-color: #fdeced;
+	color: #01024e;
+	font-family: 'Neucha', cursive;
+	font-size: 25px;
+	line-height: 1.3;
+}
+
+h1	{
+	color: #eb7070;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+h2	{
+	color: #61234e;
+	font-family: 'Sofia', cursive;
+	font-size: 35px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #ff487e;
+	font-weight: bold;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 30px;
+}
+
+
+a:hover {
+	color: #60a9a6;
+}
+
+
+/* Custom design with class (99% of design)*/
+/* Design adjustments using id (1% of remaining design)*/
+
+.container	{
+	width: 830px;
+	margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#img-blue{
+	border: 6px solid #99d8d0;
+	border-radius: 10%;
+    box-shadow: 5px 5px 30px rgba(210,250,251,0.7);
+}
+
+.btn-red {
+	color: white;
+	background-color: #ff487e;
+	padding: 5px 20px;
+	border-radius: 5%;
+	margin: 0px 30px 0px 30px;
+}
+
+.btn-red:hover {
+	color: white;
+	background-color: #60a9a6;
+}
+
+.list-inline {
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	 display: inline;
+	 padding:10px;
+}
+
+.list-inline i{
+	 font-size: 65px;
+}
+
+#introduction p {
+	margin-bottom:20px;
+}
+
+.card-pink {
+	background-color: #fff1e9;
+	padding: 20px;
+	margin: 25px;
+	box-shadow: 0px 20px 30px rgba(190,98,131,0.3);
+	border-radius:30px;	}
+}
